@@ -1,16 +1,20 @@
 {
   "schema_version": "1.0.3",
-  "packages": [{
-    "name": "ESLintAutoFix",
-    "description": "ESLint Auto fix with global eslint command.",
-    "author": "alex.mm",
-    "homepage": "https://github.com/alex-mm",
-    "last_modified": "2017-6-12",
-    "platforms": {
-      "*": [{
-        "version": "1.0.3",
-        "url": "https://github.com/alex-mm/eslintAutoFix.git"
-      }]
+  "packages": [
+    {
+      "name": "StylelintAutoFix",
+      "description": "Stylelint Auto fix with global stylelint command.",
+      "author": "paleite",
+      "homepage": "https://github.com/paleite",
+      "last_modified": "2018-8-03",
+      "platforms": {
+        "*": [
+          {
+            "version": "1.0.3",
+            "url": "https://github.com/paleite/stylelintAutoFix.git"
+          }
+        ]
+      }
     }
-  }]
+  ]
 }

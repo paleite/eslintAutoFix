@@ -4,9 +4,9 @@
     "id": "tools",
     "children": [
       {
-        "id": "eslint_auto_fix",
-        "caption": "ESLintAutoFix",
-        "command": "eslint_auto_fix"
+        "id": "stylelint_auto_fix",
+        "caption": "StylelintAutoFix",
+        "command": "stylelint_auto_fix"
       }
     ]
   },
@@ -21,19 +21,20 @@
         "id": "package-settings",
         "children": [
           {
-            "caption": "ESLintAutoFix",
+            "caption": "StylelintAutoFix",
             "children": [
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/ESLintAutoFix/ESLintAutoFix.sublime-settings"
+                  "file":
+                    "${packages}/StylelintAutoFix/StylelintAutoFix.sublime-settings"
                 },
                 "caption": "Settings – Default"
               },
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/User/ESLintAutoFix.sublime-settings"
+                  "file": "${packages}/User/StylelintAutoFix.sublime-settings"
                 },
                 "caption": "Settings – User"
               },
@@ -43,7 +44,8 @@
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/ESLintAutoFix/Default (Windows).sublime-keymap",
+                  "file":
+                    "${packages}/StylelintAutoFix/Default (Windows).sublime-keymap",
                   "platform": "Windows"
                 },
                 "caption": "Key Bindings – Default"
@@ -51,7 +53,8 @@
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/ESLintAutoFix/Default (OSX).sublime-keymap",
+                  "file":
+                    "${packages}/StylelintAutoFix/Default (OSX).sublime-keymap",
                   "platform": "OSX"
                 },
                 "caption": "Key Bindings – Default"
@@ -59,7 +62,8 @@
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/ESLintAutoFix/Default (Linux).sublime-keymap",
+                  "file":
+                    "${packages}/StylelintAutoFix/Default (Linux).sublime-keymap",
                   "platform": "Linux"
                 },
                 "caption": "Key Bindings – Default"

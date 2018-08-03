@@ -1,6 +1,6 @@
-[{
-    "keys": [
-        "ctrl+shift+,"
-    ],
-    "command": "eslint_auto_fix"
-}]
+[
+  {
+    "keys": ["ctrl+shift+."],
+    "command": "stylelint_auto_fix"
+  }
+]

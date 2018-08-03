@@ -1,38 +1,39 @@
-# ESLintAutoFix
+# StylelintAutoFix
 
-ESLint Auto fix with global eslint command.
+Stylelint Auto fix with global stylelint command.
 
-__You should modify the setting first before use.__
+**You should modify the setting first before use.**
 
 ## setting
 
-### eslint_path
+### stylelint_path
 
-* Global installation path of eslint, default '/usr/local/bin/'.
+- Global installation path of stylelint, default '/usr/local/bin/'.
 
 ### show_panel
 
-* Whether the output panel, default true.
+- Whether the output panel, default true.
 
 e.g.
 
 ```
 {
-  "eslint_path": "/usr/local/bin/",
+  "stylelint_path": "/usr/local/bin/",
   "show_panel": true
 }
-
 ```
 
 ## usage
 
 ### keymap
-* `super+shift+,` mac
-* `ctrl+shift+,` window or linux
+
+- `super+shift+.` mac
+- `ctrl+shift+.` window or linux
 
 ### right menu
-* `ESLintAutoFix`
+
+- `StylelintAutoFix`
 
 ## command
 
-### `eslint_auto_fix`
+### `stylelint_auto_fix`

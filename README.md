@@ -1,6 +1,7 @@
 # StylelintAutoFix
 
-Stylelint Auto fix with global stylelint command.
+Stylelint Auto fix with global stylelint command. Fork of the amazing
+[ESLintAutoFix](https://github.com/alex-mm/eslintAutoFix).
 
 **You should modify the setting first before use.**
 
